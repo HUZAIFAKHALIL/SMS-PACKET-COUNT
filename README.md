@@ -54,6 +54,19 @@ console.log(getCharset(message) , getPartCount(message));
 ```
 
 
+## Usage/Examples - Node 
+
+```javascript
+const { getCharset, getPartCount, getCharacterCount } = require('sms-packet-count');
+
+
+const message = "Eren Yeager (エレン・イェーガー Eren Yēgā?) was a former member of the Survey Corps. He was the main protagonist of Attack on Titan. He lived in Shiganshina District with his parents until the fall of Wall Maria, where he impotently witnessed his mother being eaten by a Titan.[33] This event would lead to Eren's intense hatred towards the Titans as he swore to wipe all of them off the face of the Earth.Soon afterward, his father, Grisha Yeager, found him and gave him the key to his basement, instructing Eren to find it at all costs and retake Wall Maria.[ He then injected Eren with a Titan serum."
+
+console.log(getCharset(message) , getPartCount(message) , getCharacterCount(message));
+
+```
+
+
 
 
 ## Authors
