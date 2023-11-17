@@ -53,3 +53,23 @@ console.log(getCharset(message) , getPartCount(message));
 
 ```
 
+
+
+
+
+## Authors
+
+- [@Huzaifa Khalil](https://github.com/HUZAIFAKHALIL)
+
+
+## Features
+
+- The system can identify the encoding used when sending an SMS message.
+- It can break down the SMS into individual packets and provide the total number of packets.
+- The system calculates the character count of the characters used in the SMS.
+- It is compatible across different platforms.
+
+
+
+
+
